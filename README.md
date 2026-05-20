@@ -78,7 +78,7 @@ No test suite or additional documentation files are present; the repository focu
 
 ## Notes  
 
-- The repository does not include explicit installation or run instructions; users will need to install the dependencies listed in `pyproject.toml` (e.g., via `pip install .` or a tool like `uv`).  
+- The repository does not include explicit installation or run instructions; users will need to install the dependencies listed in `pyproject.toml` (e.g., via `pip install .` or a tool like `uv` using command like `uv sync`).  
 - An environment variable for the Groq API key is required (refer to `.env.example`).  
 - The `readme_generator.py` file is labelled as “project documentation” but contains no visible functions; it likely provides high‑level description utilities used by the UI.  
 - No CI configuration, test files, or example outputs are provided, so validation of correctness must be performed manually.  
