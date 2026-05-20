@@ -82,5 +82,11 @@ No test suite or additional documentation files are present; the repository focu
 - An environment variable for the Groq API key is required (refer to `.env.example`).  
 - The `readme_generator.py` file is labelled as “project documentation” but contains no visible functions; it likely provides high‑level description utilities used by the UI.  
 - No CI configuration, test files, or example outputs are provided, so validation of correctness must be performed manually.  
+- In .env file you've to put **GITHUB_TOKEN** and **GROQ_API_KEY**
+
+    1. For GITHUB_TOKEN :- **Go to Settings > Developer Settings > Personal access tokens > Fine-grained tokens**
+    and here you've to generate token and then copy the api key value and paste it in .env file.
+
+    2. For GROQ_API_KEY :- Go to <b>https://console.groq.com/keys</b> and create api key and paste it's api key value in .env file.
 
 ---
